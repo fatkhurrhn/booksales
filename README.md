@@ -1,4 +1,4 @@
-# BookSales - Online Book Store
+# BookSalesKu - Online Book Store
 
 A modern, responsive e-commerce website for book lovers built with React and Bootstrap.
 
