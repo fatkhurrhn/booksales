@@ -14,7 +14,7 @@ const MainTeam = () => {
                 name: "Alex Johnson",
                 role: "Founder & CEO",
                 bio: "Book enthusiast with 15+ years in publishing industry. Believes every book finds its reader.",
-                image: "https://randomuser.me/api/portraits/men/32.jpg",
+                image: "https://i.pinimg.com/736x/b0/9e/ad/b09ead450d9ab954de8c0dd0e8be1970.jpg",
                 favoriteBook: "The Shadow of the Wind by Carlos Ruiz Zafón",
                 social: {
                   twitter: "#",
@@ -25,7 +25,7 @@ const MainTeam = () => {
                 name: "Sarah Williams",
                 role: "Chief Operations Officer",
                 bio: "Ensures our operations run smoothly so you get your books fast and in perfect condition.",
-                image: "https://randomuser.me/api/portraits/women/44.jpg",
+                image: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
                 favoriteBook: "Where the Crawdads Sing by Delia Owens",
                 social: {
                   twitter: "#",
@@ -36,7 +36,7 @@ const MainTeam = () => {
                 name: "Michael Chen",
                 role: "Chief Technology Officer",
                 bio: "Leads our tech team to create seamless shopping experiences across all devices.",
-                image: "https://randomuser.me/api/portraits/men/22.jpg",
+                image: "https://img.lapresse.ca/924x615/201111/04/406032-mark-zuckerberg-fondateur-facebook.jpg",
                 favoriteBook: "Neuromancer by William Gibson",
                 social: {
                   twitter: "#",
