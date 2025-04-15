@@ -1,8 +1,12 @@
-const Form = () => {
+export default function Contact() {
     return (
-        <>
+        <div>
             <section className="py-5">
                 <div className="container">
+                <div className="text-center mb-5">
+            <h2 className="fw-bold">Get In Touch</h2>
+            <p className="text-muted">We'd love to hear from you! Whether you have a question about <br/> our books, need support, or just want to share your reading experience, reach out to us.</p>
+          </div>
                     <div className="row g-4">
                         {/* Contact Form - Left Side */}
                         <div className="col-lg-6">
@@ -161,8 +165,6 @@ const Form = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
-};
-
-export default Form;
+}

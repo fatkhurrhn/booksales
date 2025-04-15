@@ -1,13 +1,15 @@
-const MainTeam = () => {
-    return (
-        <>
-        <section className="py-5">
+import { Link } from "react-router";
+
+export default function Team() {
+  return (
+    <>
+      <div className="py-5">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="fw-bold">Our Leadership</h2>
-            <p className="text-muted">The visionaries guiding our book-loving mission</p>
+            <h2 className="fw-bold">Meet Our Team</h2>
+            <p className="text-muted">The passionate book lovers who make BookSales possible. <br/> We're dedicated to connecting readers with their next favorite book.</p>
           </div>
-          
+
           <div className="row g-4 justify-content-center">
             {[
               {
@@ -47,9 +49,9 @@ const MainTeam = () => {
               <div key={index} className="col-md-6 col-lg-4">
                 <div className="card border-0 rounded-3 h-100 overflow-hidden shadow-sm hover-shadow-lg">
                   <div className="card-img-top overflow-hidden" style={{ height: "300px" }}>
-                    <img 
-                      src={member.image} 
-                      alt={member.name} 
+                    <img
+                      src={member.image}
+                      alt={member.name}
                       className="img-fluid w-100 h-100 object-fit-cover"
                     />
                   </div>
@@ -75,9 +77,7 @@ const MainTeam = () => {
             ))}
           </div>
         </div>
-      </section>
-        </>
-    );
-};
-
-export default MainTeam;
+      </div>
+    </>
+  );
+}

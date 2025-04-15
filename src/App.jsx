@@ -1,21 +1,26 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './Pages/HomePage';
-import Tes from './Pages/Tes';
-import Team from './Pages/Teams';
-import Contact from './Pages/Contact';
+import { BrowserRouter, Route, Routes } from "react-router";
+import Home from "./Pages";
+import Books from "./Pages/books";
+import Teams from "./Pages/Team";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/tes" element={<Tes />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    <>
+      <div className="container">
+        
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="books" element={<Books />} />
+            <Route path="teams" element={<Teams />} />
+            <Route path="contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+
+      </div>
+    </>
   );
 }
 
-export default App;
+export default App

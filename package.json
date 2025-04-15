@@ -1,10 +1,10 @@
 {
-  "name": "booksales",
+  "name": "bookstoreku",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 2712",
+    "dev": "vite --port 5674",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.0"
+    "react-router": "^7.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
