@@ -11,7 +11,7 @@ export default function Hero() {
                             Cara mudah dan terbukti untuk membentuk kebiasaan baik dan
                             menghilangkan kebiasaan buruk
                         </p>
-                        <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mt-4 mb-lg-3">
                             <button
                                 type="button"
                                 className="btn btn-primary btn-lg px-4 me-md-2 fw-bold"

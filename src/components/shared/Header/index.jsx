@@ -29,12 +29,12 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to="teams" className="nav-link px-2">
+              <Link to="/teams" className="nav-link px-2">
                 Team
               </Link>
             </li>
             <li>
-              <Link to="contact" className="nav-link px-2">
+              <Link to="/contact" className="nav-link px-2">
                 Contact
               </Link>
             </li>

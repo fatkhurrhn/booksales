@@ -14,4 +14,3 @@ export default function Books () {
     );
 }
 
-// style={{ fontFamily: "'Segoe UI', sans-serif" }}
